@@ -37,6 +37,10 @@ ul {
   padding-left: 0px;
 }
 
+div{
+  box-shadow: 10px, 10px, 5px, rgba(0,0,0,0.5);
+}
+
 .container {
   margin: 0 auto;
   width: 500px;
@@ -57,7 +61,7 @@ ul {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    max-width: 90vw
   }
 }
 
@@ -69,10 +73,8 @@ ul {
   padding: 10px;
   border-radius: 10px;
   line-height: 1.2;
-
 }
 
 .profile_image {
   border-radius: 50%;
 }
-
